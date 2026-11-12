@@ -1,0 +1,42 @@
+{
+  "steady_load": {
+    "name": "steady_load",
+    "description": "Steady request stream spaced evenly across time, well within provider limits.",
+    "requests": 12,
+    "arrival_interval_seconds": 1.2,
+    "rate_limit_rpm": 30,
+    "rate_limit_tpm": 6000
+  },
+  "sudden_burst": {
+    "name": "sudden_burst",
+    "description": "Sudden surge of concurrent requests arriving nearly simultaneously to test admission queue.",
+    "requests": 16,
+    "arrival_interval_seconds": 0.05,
+    "rate_limit_rpm": 30,
+    "rate_limit_tpm": 6000
+  },
+  "sustained_overload": {
+    "name": "sustained_overload",
+    "description": "Traffic arriving faster than provider capacity continuously to test rejection and backoff.",
+    "requests": 25,
+    "arrival_interval_seconds": 0.1,
+    "rate_limit_rpm": 20,
+    "rate_limit_tpm": 4000
+  },
+  "limit_halved": {
+    "name": "limit_halved",
+    "description": "Simulated drop in available quota with RPM and TPM limits cut by 50%.",
+    "requests": 18,
+    "arrival_interval_seconds": 0.2,
+    "rate_limit_rpm": 15,
+    "rate_limit_tpm": 3000
+  },
+  "daily_budget_exhausted": {
+    "name": "daily_budget_exhausted",
+    "description": "Total daily quota exhausted; verifies immediate non-retryable rejection.",
+    "requests": 8,
+    "arrival_interval_seconds": 0.05,
+    "daily_budget_exhausted": true
+  }
+}
+

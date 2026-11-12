@@ -1,0 +1,32 @@
+{
+  "attention_is_all_you_need": {
+    "paper_id": "attention_is_all_you_need",
+    "paper_title": "Attention Is All You Need",
+    "arxiv_id": "1706.03762",
+    "version": 7,
+    "filename": "1706.03762v7.pdf",
+    "file_path": "papers/1706.03762v7.pdf",
+    "sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+    "page_count": 15
+  },
+  "moshi_realtime_dialogue": {
+    "paper_id": "moshi_realtime_dialogue",
+    "paper_title": "Moshi: a speech-text foundation model for real-time dialogue",
+    "arxiv_id": "2410.00037",
+    "version": 1,
+    "filename": "2410.00037v1.pdf",
+    "file_path": "papers/2410.00037v1.pdf",
+    "sha256": "a687144cc77bea86b0c60ae800ccb1d3e0816033fa5c7960388fe29a0dbfcfac",
+    "page_count": 66
+  },
+  "dynamic_chunking_hierarchical": {
+    "paper_id": "dynamic_chunking_hierarchical",
+    "paper_title": "Dynamic Chunking for End-to-End Hierarchical Sequence Modeling",
+    "arxiv_id": "2507.07955",
+    "version": 2,
+    "filename": "2507.07955v2.pdf",
+    "file_path": "papers/2507.07955v2.pdf",
+    "sha256": "04a2b32e6e82853cfc23c5db132750874a86cde99219ec6f664128f4aa83122f",
+    "page_count": 39
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "small_k3_norerank": {
+    "name": "small_k3_norerank",
+    "chunk_size_words": 250,
+    "chunk_overlap_words": 50,
+    "top_k": 3,
+    "use_reranking": false,
+    "description": "Dense small-chunk configuration optimized for high precision and minimal token usage."
+  },
+  "medium_k5_norerank": {
+    "name": "medium_k5_norerank",
+    "chunk_size_words": 500,
+    "chunk_overlap_words": 100,
+    "top_k": 5,
+    "use_reranking": false,
+    "description": "Standard baseline medium-chunk configuration."
+  },
+  "large_k8_rerank": {
+    "name": "large_k8_rerank",
+    "chunk_size_words": 900,
+    "chunk_overlap_words": 150,
+    "top_k": 8,
+    "use_reranking": true,
+    "description": "Large-chunk configuration with BM25 + TF-IDF Reciprocal Rank Fusion and heading boost."
+  }
+}
+
